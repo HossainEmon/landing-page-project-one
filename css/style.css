@@ -78,9 +78,34 @@ nav{
     color: #252432;
     margin-bottom: 18px;
 }
-.left-side p{
+.left-description{
     font-size: 18px;
     font-weight: 300;
     color: #696870;
     margin-bottom: 18px;
+}
+/* user section */
+.user-section{
+    background-color: #D7D6F6;
+    padding: 80px 50px;
+    text-align:center;
+    margin: 148px 159px;
+    border-radius: 10px;
+    
+}
+
+.user-content{
+    display: flex;
+    justify-content: space-around;
+}
+.user-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #252432;
+}
+.active-user{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
 }
