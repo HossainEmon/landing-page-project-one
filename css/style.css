@@ -62,3 +62,25 @@ nav{
 }
 
 /* Active section */
+.active-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 70px;
+   
+}
+.left-side{
+    padding: 40px;
+}
+
+.left-side h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 18px;
+}
+.left-side p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #696870;
+    margin-bottom: 18px;
+}
