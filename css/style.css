@@ -4,6 +4,7 @@
 }
 body{
     font-family: Arial, sans-serif;
+    background-color: #D6DDED;
 }
 
 /* shared css */
@@ -112,7 +113,7 @@ nav{
 
 /* review section */
 .review-section{
-    padding: 60px 20px;
+   
     
 }
 .review-section h2{
@@ -122,22 +123,54 @@ nav{
 .review-content{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 40px;
+    
 }
 
 .review-container{
     background-color: white;
   border-radius: 12px;
-  padding: 20px;
-  width: 280px;
+  padding: 40px;
+    
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: left;
 
+}
+.review-text{
+    display: block;
 }
 .star-img{
     margin-bottom: 10px;
 }
 .review-img{
     margin-top: 24px;
+}
+
+/* git in touch section */
+.get-in-section{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.get-column{
+    width:50%;
+}
+
+.get-in-section input[type="email"], .get-in-section input[type="text"] , .get-in-section input[type="message"]{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.btn-style{
+    width: 100%;
+}
+
+.get-heading{
+    font-size: 96px;
+    font-weight: bold;
 }
