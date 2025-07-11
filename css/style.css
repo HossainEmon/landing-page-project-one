@@ -11,6 +11,9 @@ body{
 .break{
     display: block;
 }
+.btn:hover{
+    background-color: mediumslateblue;
+}
 
 .btn{
     background-color: #4E47FF;
@@ -37,7 +40,7 @@ nav{
     text-align: center;
     padding: 50px;
 }
-.logo{
+.header-logo{
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
@@ -173,4 +176,43 @@ nav{
 .get-heading{
     font-size: 96px;
     font-weight: bold;
+}
+
+/* footer section */
+footer {
+background-color: #ffffff;
+padding: 40px 20px;
+text-align: center;
+min-height: 428px;
+}
+
+
+
+.logo {
+color: #3f51b5; 
+font-size: 2.5em;
+margin-bottom: 15px;
+font-size: 100px;
+margin-top: 104px;
+}
+
+.tagline {
+color: #777;
+line-height: 1.6;
+margin-bottom: 25px;
+}
+
+.navigation {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+.navigation li a {
+text-decoration: none;
+color: #555;
+font-size: 1em;
 }
